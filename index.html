@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mood Tracker</h1>
+      <p>Track your mood daily and stay motivated!</p>
+    </header>
+    <main>
+      <div class="mood-entry">
+        <h2>How are you feeling today?</h2>
+        <div class="mood-buttons">
+          <button class="mood-btn" data-mood="happy">😊</button>
+          <button class="mood-btn" data-mood="sad">😢</button>
+          <button class="mood-btn" data-mood="angry">😠</button>
+          <button class="mood-btn" data-mood="neutral">😐</button>
+        </div>
+        <button class="submit-btn">Submit</button>
+      </div>
+      <div class="motivational-quote">
+        <h2>Motivational Quote</h2>
+        <p id="quoteText"></p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Mood Tracker. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </div>
+</body>
+</html>
